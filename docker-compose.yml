@@ -1,0 +1,8 @@
+version: '2.4'
+
+services:
+  staticcontentdelivery:
+    image: staticcontentdelivery
+    build: .
+    ports:
+      - 8888:80
